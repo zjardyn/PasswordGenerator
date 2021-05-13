@@ -44,7 +44,8 @@ password_file(apps, file, 15, 123, symbol = T)
 
 # Facebook    4&7JKvyyO:7^R8e
 # Courselink    +J7A~8G+^#hF6@y
-#   Google    ^+wSmCwq763#k^X
+# Google    ^+wSmCwq763#k^X
 # LoL    cL3mw_^kWBZt_f1
 # Amazon    5SuIr=%z5$usw*f
 # ComputeCanada    ~#@wXY8Q3&ft6Vd
+  
