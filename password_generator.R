@@ -26,8 +26,8 @@ simple_password <- function(app, file, n, symbol) {
 # file.remove(file)
 
 # takes a list of passwords and appends them to file
-password_file <- function(apps, file, n=12, seed=123, symbol=T){
-  if (file.exists(file)) {
+password_file <- function(apps, file, n=12, seed=123, symbol=T, replace = F){
+  if (replace == T) {
     file.remove(file)
   }
   for(app in apps){
@@ -40,7 +40,7 @@ password_file <- function(apps, file, n=12, seed=123, symbol=T){
 apps <- c("Facebook", "Courselink", "Google", "LoL", "Amazon", "ComputeCanada")
 file="passwords.txt"
 
-password_file(apps, file, 15, 123, symbol = T)
+password_file(apps, file, 15, 123, symbol = T, replace = T)
 
 # Facebook    4&7JKvyyO:7^R8e
 # Courselink    +J7A~8G+^#hF6@y
